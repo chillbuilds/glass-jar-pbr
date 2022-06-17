@@ -1,0 +1,17 @@
+html, body {
+    height: 100%;
+    overflow: hidden
+}
+
+#babylonCanvas {
+    z-index: 1;
+}
+
+#controls {
+    color: whitesmoke;
+    padding: 8px;
+    position: absolute;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 10;
+}
